@@ -1,6 +1,6 @@
-package com.company;
+package com.company.SingleElementInASortedArray;
 
-public class SingleNumber {
+public class Solution2 {
     public static void main(String[] args) {
         int[] nums = {3, 3, 1};
         int a = 0;
