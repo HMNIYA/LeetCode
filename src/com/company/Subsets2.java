@@ -4,15 +4,15 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class LetterCombinationsPhoneNumber {
+public class Subsets2 {
     public static void main(String[] args) {
-        int[] nums = {1,2,3};
+        int[] nums = {1,2,2};
 //        if (nums == null || nums.length == 0) return new ArrayList<>();
         Arrays.sort(nums);
         List<List<Integer>> list = new ArrayList<>();
         ArrayList<Integer> firstlist = new ArrayList<>();
         findSubSet(nums, 0, firstlist, list);
-        System.out.println(list);
+        //return list;
     }
     public static void findSubSet(int[] nums, int i, ArrayList<Integer> firstList, List<List<Integer>> list){
         list.add(new ArrayList<>(firstList));
