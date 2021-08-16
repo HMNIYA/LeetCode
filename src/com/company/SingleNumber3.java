@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class SIngleNumber3 {
+public class SingleNumber3 {
     public static void main(String[] args) {
         int[] nums = {1,2,1,3,2,5};
         Set<Integer> set = new HashSet();
